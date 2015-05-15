@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "name": "Категория",
+        "active": true,
+        "news": [
+            {
+                "id": 1,
+                "active": true,
+                "title": "Новость 1",
+                "image": "http://site-with.images/images/image-1.jpg",
+                "description": "Описание",
+                "text": "text",
+                "date": "2015-05-12"
+            },
+            {
+                "id": 2,
+                "active": true,
+                "title": "Новость 2",
+                "image": "http://site-with.images/images/image-1.jpg",
+                "description": "Описание",
+                "text": "text",
+                "date": "2015-05-12"
+            }
+        ],
+        "subcategories": [
+            {
+                "id": 2,
+                "name": "Категория",
+                "active": true,
+                "news": [
+                    {
+                        "id": 3,
+                        "active": true,
+                        "title": "Новость 3",
+                        "image": "http://site-with.images/images/image-1.jpg",
+                        "description": "Описание",
+                        "text": "text",
+                        "date": "2015-05-12"
+                    },
+                    {
+                        "id": 4,
+                        "active": false,
+                        "title": "Новость 4",
+                        "image": "http://site-with.images/images/image-1.jpg",
+                        "description": "Описание",
+                        "text": "text",
+                        "date": "2015-05-12"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Категория",
+                "active": false,
+                "news": [
+                    {
+                        "id": 5,
+                        "active": true,
+                        "title": "Новость 5",
+                        "image": "http://site-with.images/images/image-1.jpg",
+                        "description": "Описание",
+                        "text": "text",
+                        "date": "2015-05-12"
+                    }
+                ]
+            }
+        ]
+    }
+]
